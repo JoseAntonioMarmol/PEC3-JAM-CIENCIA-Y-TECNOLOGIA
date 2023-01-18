@@ -1,10 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Mujeres, ciencia y tecnología</title>
-</head>
-<body>
 
+<head>
+    <title>Mujeres, ciencia y tecnología</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Mujeres, ciencia y tecnología">
+    <meta name="description" content="Mujeres, ciencia y tecnología">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen">
+    <link rel="shortcut icon" href="./img/logo-ciencia-tecnologia.svg">
+</head>
+
+<body id="home">
+<a class="sr" href="#main">Saltar al contenido principal</a>
+<header class="header">
+    <div class="container">
+        <div class="brand">
+            <a class="nav-logo" href="index.html" title="Home page">
+                <p><img src="./img/logo-ciencia-tecnologia.svg" class="img-fluid nav-logo-img" alt="ciencia y tecnologia logo">Ciencia y tecnología</p>
+            </a>
+        </div>
+        <nav class="nav">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="referentes.html">Referentes Científicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="11-de-febrero.html">11 de febrero</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iniciativas.html">Iniciativas</a>
+                </li>
+            </ul>
+            </nav>
+        </div>
+</header>
+
+<main id="main">
+    <div class="hero-athom">
+        <div class="container">
+            <h2>Mujeres en la ciencia</h2>
+            <p>El Día Internacional de la Mujer y la niña en la Ciencia se celebra el día 11 de febrero. Este día fue proclamado en 2015 por la Asamblea General de las Naciones Unidas para conseguir el acceso y la participación plena y equitativa en la ciencia de mujeres y de niñas.</p>
+        </div>
+    </div>
+
+    <section id="science">
+        <div class="container">
+            <h2 class="text-center">Referentes científicas</h2>
+            <p class="lead"><a href="referentes.html#section">Ver toda la lista →</a>
+            </p>
+            <div class="scientific">
+                <div>
+                    <img src="img/01-ada-lovelace.jpg" alt="Ada Lovelace" class="img-fluid">
+                    <div class="content">
+                        <p>Programación</p>
+                        <h3><a href="referentes.html#ada">Ada Lovelace (<time datetime="1815">1815</time>-<time datetime="1852">1852</time>)</a></h3>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/02-marie-curie.jpg" alt="Marie Curie" class="img-fluid">
+                    <div class="content">
+                        <p>Física y quimica</p>
+                        <h3><a href="referentes.html#marie">Marie Curie (<time datetime="1867">1867</time>-<time datetime="1934">1934</time>)</a></h3>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/03-chien-shiung-wu.jpg" alt="Chien Shiung Wu" class="img-fluid">
+                    <div class="content">
+                        <p>Física Nuclear</p>
+                        <h3><a href="referentes.html#chien">Chien-Shiung-Wu (<time datetime="1912">1912</time>-<time datetime="1997">1997</time>)</a></h3>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/04-hedy-lamarr.jpg" alt="Hedy Lamarr" class="img-fluid">
+                    <div class="content">
+                        <p>Ingeniería de telecomunicaciones</p>
+                        <h3><a href="referentes.html#hedy">Hedy Lamarr (<time datetime="1914">1914</time>-<time datetime="2000">2000</time>)</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+<footer>
+    <div class="container">
+        <div><img src="img/logo-ciencia-tecnologia-white.svg" alt="logo del sitio en blanco" title="MCiencia y tecnologia"></div>
+        <address>
+            <a href="mailto:hola@cienciaytecnologia.org">hola@cienciaytecnologia.org</a>
+        </address>
+        <p class="title-newsletter">Siempre al día con nuestro boletín de noticias</p>
+        <form name="newsletter" action="#" method="POST">
+            <div>
+                <label class="sr">Escribe tu e-mail</label>
+                <label>
+                    <input type="email" value="" name="email" placeholder="Escribe tu e-mail" required>
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" value="Acepta" name="politica" id="politica" required>
+                <label for="politica">Acepto la <a href="">política de protección de datos</a></label>
+            </div>
+            <div>
+                <button type="submit" class="btn">Suscríbeme</button>
+            </div>
+        </form>
+        <ul>
+            <li><a href="">Aviso legal</a></li>
+            <li><a href="">Política de privacidad</a></li>
+            <li><a href="">Política de cookies</a></li>
+        </ul>
+        <div class="credit">
+            <p>2022 &copy;Ciencia y tecnología</p>
+            <p>Actividad realizada por Jose Antonio Marmol Romero</p>
+            <p>Información elaborada a partir de la biblioguía <a href="https://biblioteca.uoc.edu/es/biblioguias/biblioguia/Mujeres-ciencia-y-tecnologia/">Mujeres ciencia y tecnología</a> de la biblioteca de la UOC</p>
+            <p>Icono de la portada por flatart_icons – <a href="https://www.flaticon.es/iconos-gratis/atomo">Flaticon</a></p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
